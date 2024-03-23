@@ -75,3 +75,11 @@ section{
 .mx-1{
   margin: 0 1rem;
 }
+
+.breadcrum{
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+.breadcrum span{
+  color: #a1a1a1;;
+}
