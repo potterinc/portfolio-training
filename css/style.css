@@ -1,0 +1,156 @@
+@import url(fontawesome/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduction img {
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+    padding: 0px;
+
+}
+
+.introduction {
+    border: 0;
+    outline: 0;
+    font-weight: bolder;
+    position: relative;
+}
+
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 5px 20px;
+    font-size: 1rem;
+    z-index: 1000;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.welcome {
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    font-weight: 300;
+    color: #e2e2e2;
+    opacity: .8;
+}
+
+.about {
+    margin: 1rem 0;
+    background-color: #333;
+    padding: 10px;
+}
+
+.about-content {
+    color: #e2e2e2;
+    font-size: small;
+}
+
+.about-content p {
+    margin: 1rem 0;
+    line-height: 1.2rem;
+}
+
+.title {
+    color: #e2e2e2;
+    font-size: 1.5rem;
+    margin: 5px 0;
+    font-weight: 200;
+}
+
+.read-more {
+    background-color: #6e6c6c;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-img{
+    margin: 1rem 0;
+    position: relative;
+    width: 100%;
+}
+.about-img img{
+   display: inline-block;
+   width: 250px;
+}
+.about-img img:nth-child(2){
+    width: 150px;
+    position: absolute;
+}
+.collections{
+display: flex;
+flex-wrap: wrap;
+padding-top: 10px;
+padding-inline: 10px;
+}
+.collections div{
+    width: 50%;
+ 
+}
+.collections img{
+    width: 100%;
+    
+}
+.capture{
+   color: #6e6c6c;
+   padding:10px ;
+  
+}
+
+.skills-img{
+    background-image: url(../images/progress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height:600px;
+}
+.skills-heading{
+    color: #e2e2e2;
+    padding: 15px 10px ;
+}
+.progress-bar{
+    color: #e2e2e2;
+    padding: 10px;
+}
+.data1{
+    width: 90%;
+    background-color: rgb(65, 141, 141); 
+}
+.data2{
+    width: 85%;
+    background-color: rgb(65, 141, 141); 
+}
+.data3{
+    width: 80%;
+    background-color: rgb(65, 141, 141); 
+}
+.data4{
+    width: 90%;
+    background-color: rgb(65, 141, 141); 
+}
+.stats-header{
+color: #e2e2e2;
+padding:10px 5px;
+}
+.portfolio-header{
+    padding: 15px 10px  
+}
+
+
+
+
+
