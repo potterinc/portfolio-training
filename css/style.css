@@ -66,7 +66,7 @@
 .title {
     color: #e2e2e2;
     font-size: 1.5rem;
-    margin: 5px 0;
+    margin: 1rem;
     font-weight: 200;
 }
 
@@ -79,78 +79,116 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-.about-img{
+
+.about-img {
     margin: 1rem 0;
     position: relative;
     width: 100%;
 }
-.about-img img{
-   display: inline-block;
-   width: 250px;
+
+.about-img img {
+    display: inline-block;
+    width: 250px;
 }
-.about-img img:nth-child(2){
+
+.about-img img:nth-child(2) {
     width: 150px;
     position: absolute;
 }
-.collections{
-display: flex;
-flex-wrap: wrap;
-padding-top: 10px;
-padding-inline: 10px;
-}
-.collections div{
-    width: 50%;
- 
-}
-.collections img{
-    width: 100%;
-    
-}
-.capture{
-   color: #6e6c6c;
-   padding:10px ;
-  
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-inline: 10px;
 }
 
-.skills-img{
+.collections div {
+    width: 50%;
+
+}
+
+.collections img {
+    width: 100%;
+
+}
+
+.capture {
+    color: #6e6c6c;
+    padding: 10px;
+
+}
+
+.skills-img {
     background-image: url(../images/progress.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-height:600px;
+    height: 600px;
 }
-.skills-heading{
+
+.skills-heading {
     color: #e2e2e2;
-    padding: 15px 10px ;
+    padding: 15px 10px;
 }
-.progress-bar{
+
+.progress-bar {
     color: #e2e2e2;
     padding: 10px;
 }
-.data1{
+
+.data1 {
     width: 90%;
-    background-color: rgb(65, 141, 141); 
+    background-color: rgb(65, 141, 141);
 }
-.data2{
+
+.data2 {
     width: 85%;
-    background-color: rgb(65, 141, 141); 
+    background-color: rgb(65, 141, 141);
 }
-.data3{
+
+.data3 {
     width: 80%;
-    background-color: rgb(65, 141, 141); 
+    background-color: rgb(65, 141, 141);
 }
-.data4{
+
+.data4 {
     width: 90%;
-    background-color: rgb(65, 141, 141); 
-}
-.stats-header{
-color: #e2e2e2;
-padding:10px 5px;
-}
-.portfolio-header{
-    padding: 15px 10px  
+    background-color: rgb(65, 141, 141);
 }
 
+.stats-header {
+    color: #e2e2e2;
+    padding: 10px 5px;
+}
 
+.portfolio-header {
+    padding: 15px 10px
+}
 
+@media (max-width: 768px) {
 
+    .about-img img:nth-child(2) {
+        width: 100px;
+        right: 0;
+        position: absolute;
+    }
+}
+.statistics{
+display: flex;
+padding: 5px 20px;
+justify-content: space-evenly;
 
+}
+.stat-count{
+    color:  rgb(65, 141, 141);
+    padding: 5px 20px;
+    font-size: x-large;
+}
+.stat-label{
+    color: #A2A2A2;
+    padding:5px 20px ;
+    text-transform: capitalize;
+}
+.stat-items{
+    text-align: center;
+}
